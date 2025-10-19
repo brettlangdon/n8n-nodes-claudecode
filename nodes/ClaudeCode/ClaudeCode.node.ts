@@ -68,12 +68,17 @@ export class ClaudeCode implements INodeType {
 						description: 'Fast and efficient model for most tasks',
 					},
 					{
+						name: 'Haiku',
+						value: 'haiku',
+						description: 'Fast and efficient model for most tasks',
+					},
+					{
 						name: 'Opus',
 						value: 'opus',
 						description: 'Most capable model for complex tasks',
 					},
 				],
-				default: 'sonnet',
+				default: 'haiku',
 				description: 'Claude model to use',
 			},
 			{
